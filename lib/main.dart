@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import './Screens/homeScreen..dart';
-import './Screens/WiderImage.dart';
 
 void main() {
   runApp(MyApp());

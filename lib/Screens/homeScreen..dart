@@ -74,59 +74,7 @@ class homeScreen extends StatelessWidget {
                 SizedBox(height: 20),
               ],
             );
-            // return Row(
-            //   mainAxisAlignment: MainAxisAlignment.start,
-            //   children: <Widget>[
-            //     Card(
-            //       elevation: 10,
-            //       margin: EdgeInsets.all(10),
-            //       child: Container(
-            //         height: 100,
-            //         child: Stack(
-            //           children: <Widget>[
-            //             Container(
-            //               child: Image.network(
-            //                 dummyData[index]['url'],
-            //                 fit: BoxFit.cover,
-            //               ),
-            //             ),
-            //             Text(
-            //               dummyData[index]['title'],
-            //               style:
-            //                   TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-            //             ),
-            //             SizedBox(height: 20),
-            //           ],
-            //         ),
-            //       ),
-            //     ),
-            //   ],
-            // );
-
-            // return Container(
-            //   child: Column(
-            //     children: <Widget>[
-            //       Text(
-            //         dummyData[index]['title'],
-            //         style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-            //       ),
-            //       SizedBox(height: 10),
-            //       Text(
-            //         DateFormat("dd-MM-yy HH:mm").format(
-            //           DateTime.now(),
-            //         ),
-            //       ),
-            //       Container(
-            //         child: Image.network(dummyData[index]['url']),
-            //       ),
-            //       Text(
-            //         (dummyData[index]['description']),
-            //       ),
-            //       Divider(),
-            //       SizedBox(height: 20),
-            //     ],
-            //   ),
-            // );
+           
           },
           itemCount: 5,
         ));
